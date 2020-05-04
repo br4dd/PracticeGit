@@ -2,4 +2,8 @@
 
 word = input()
 for letter in word:
-    print(letter+"-",end='')
+
+    print(letter,end='')
+    
+    if letter != word[-1]:
+        print("-",end='')
