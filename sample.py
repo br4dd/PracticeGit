@@ -1,9 +1,5 @@
-#add dash on every letter
+def print_name(name):
+    print(f'HI THERE, {name.upper()}')
 
-word = input()
-for letter in word:
-
-    print(letter,end='')
-    
-    if letter != word[-1]:
-        print("-",end='')
+input_name = input("ENTER YOUR NAME: ")
+print_name(input_name)
