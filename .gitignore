@@ -8,3 +8,4 @@ venv/include
 venv/lib
 venv/lib64
 venv/pyvenv.cfg
+.gitignore
