@@ -7,3 +7,4 @@ def print_name(name):
 
 input_name = input("ENTER YOUR NAME: ")
 print_name(input_name)
+print("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.")
